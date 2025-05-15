@@ -1,9 +1,12 @@
-import product1 from "../assets/images/images3.png";
-import product2 from "../assets/images/im1.png";
-import product3 from "../assets/images/im1.png";
-import product4 from "../assets/images/image4.png";
-import product5 from "../assets/images/img5.png";
-
+import product1 from "../assets/images/shoes.png";
+import product2 from "../assets/images/tshirt.png";
+import product3 from "../assets/images/headphone.png";
+import product4 from "../assets/images/winterjacket.png";
+import product5 from "../assets/images/cap.png";
+import product6 from "../assets/images/pant.png";
+import product7 from "../assets/images/watch.png";
+import product8 from "../assets/images/runningshoe.png";
+import product9 from "../assets/images/wallet.png";
 export const products = [
   {
     id: 1,
@@ -47,35 +50,35 @@ export const products = [
   },
   {
     id: 6,
-    name: "Olive Ridge Cap",
-    category: "Accessories",
+    name: "jeans Pant",
+    category: "cloths",
     price: 499,
-    description: "Durable olive-green hat perfect for outdoor activities.",
-    image: product5,
+    description: "massive jeans pant.",
+    image: product6,
   },
   {
     id: 7,
-    name: "Arctic Shield Jacket",
-    category: "Clothing",
+    name: "Watch",
+    category: "watch",
     price: 1299,
-    description: "High-quality insulated jacket for chilly days.",
-    image: product4,
+    description: "High-quality watch.",
+    image: product7,
   },
   {
     id: 8,
-    name: "BassCore Headphones",
-    category: "Electronics",
+    name: "Running shoe",
+    category: "footwear",
     price: 1499,
-    description: "Over-ear headphones built for deep sound and comfort.",
-    image: product3,
+    description: "Athletic flexible running shoes.",
+    image: product8,
   },
   {
     id: 9,
-    name: "Street Runner Shoes",
-    category: "Footwear",
+    name: "wallet",
+    category: "wallet",
     price: 799,
-    description: "Lightweight shoes built for casual comfort and walking.",
-    image: product2,
+    description: "purse wallet.",
+    image: product9,
   },
   {
     id: 10,
